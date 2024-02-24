@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.headding span{
+    color:rgb(76, 76, 245);
+}
+.headding{
+    color:  rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(230, 24, 89);
+    z-index: auto;
+}
+.choices{
+    display: flex;
+    justify-content: cenetr;
+}
+.choice{
+    font-size: 38px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid rgb(76, 76, 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 163px;
+    margin-top: 60px;
+    text-decoration: none;
+    background-color: rgb(230, 24, 89);
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 5px  rgb(230, 24, 89),
+    0 0 25px  rgb(230, 24, 89);
+}
+.choice:hover{
+    background-color: rgb(76, 76, 245);
+    border: 5px solid rgb(230, 24, 89);
+    cursor: pointer;
+    box-shadow: 0 0 5px rgb(76, 76, 245),
+    0 0 25px rgb(76, 76, 245), 0 0 50px rgb(76, 76, 245),
+    0 0 75px rgb(76, 76, 245), 0 0 100px rgb(76, 76, 245);
+}
+
+.score-bord{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 60px;
+}
+#user-score{
+    margin-bottom: 12px;
+}
+.msg-container{
+    font-size: 2rem;
+    margin-top: 60px;
+    height: 81px;
+    width: 300px;
+    border: 2px solid rgb(230, 24, 89);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 470px;
+}
